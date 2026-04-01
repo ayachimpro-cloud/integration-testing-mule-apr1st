@@ -7,7 +7,7 @@ import * from bat::Mutable
 suite("order-test-suite") in [
 	
   it("Obtains all orders data") in[
-    GET `hhttps://appliorders-o0mfzu.5sc6y6-4.usa-e2.cloudhub.io/orders` with {
+    GET `https://appliorders-o0mfzu.5sc6y6-4.usa-e2.cloudhub.io/orders` with {
       "headers": {
       	"Accept" : "application/json"
       }
